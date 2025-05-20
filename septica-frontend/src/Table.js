@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://septica-cu-amicii.onrender.com');
 
 const Table = () => {
   const [game, setGame] = useState(null);
